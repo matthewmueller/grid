@@ -1,0 +1,7 @@
+{
+  "name": "grid",
+  "version": "0.0.1",
+  "dependencies": {
+    "mini-tokenizer": "0.1.2"
+  }
+}

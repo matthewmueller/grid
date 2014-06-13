@@ -1,0 +1,16 @@
+{
+  "name": "grid",
+  "repo": "matthewmueller/grid",
+  "description": "excel-like API built on nd-array",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "matthewmueller/mini-tokenizer": "0.1.2"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
