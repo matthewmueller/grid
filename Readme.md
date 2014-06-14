@@ -1,17 +1,13 @@
 
 # grid
 
-  excel-like API built on nd-array
+  Excel-like API for manipulating 2 dimensional arrays.
 
 ## Installation
 
   Install with [component(1)](http://component.io):
 
     $ component install matthewmueller/grid
-
-## API
-
-
 
 ## License
 
