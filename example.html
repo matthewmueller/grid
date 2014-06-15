@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>grid component</title>
+</head>
+<body>
+  <h1>grid component</h1>
+  <script src="../build/build.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var Grid = require('grid');
+    
+    var grid = Grid(5, 5)
+      .select('A').insert([1000, 2, 3, 4, 5])
+      .select('B').insert([6, 300, 8, 9, 10])
+      .select('C').insert([1, 2, 3, 4, 5])
+      .select('4').insert([1, 2, 3, 4, 5000])
+      .select('5').insert([1, 2, 3, 4, 5])
+
+    console.log(grid.toString());
+
+  </script>
+</body>
+</html>
