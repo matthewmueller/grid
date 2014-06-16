@@ -5,7 +5,8 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "matthewmueller/mini-tokenizer": "0.1.2"
+    "matthewmueller/mini-tokenizer": "0.1.2",
+    "jkroso/unique": "0.0.1"
   },
   "development": {},
   "license": "MIT",
@@ -15,8 +16,10 @@
     "lib/grid.js",
     "lib/type.js",
     "lib/utils.js",
+    "lib/match.js",
     "lib/regexp.js",
     "lib/tokens.js",
-    "lib/expand.js"
+    "lib/expand.js",
+    "lib/selection.js"
   ]
 }
