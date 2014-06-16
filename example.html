@@ -18,15 +18,19 @@
 
     // grid
     console.log(grid.toString());
-    grid.select('1, 3').shift(1);
+    grid.select('2:3').shift(2);
     console.log(grid.toString());
-    console.log('empty?', grid.select('1, 3').empty());
-    console.log('empty?', grid.select('E1:E5').empty());
 
-    console.log(grid.select('1').fill('hi').all().toString());
 
-    console.log(grid.select('2, 3').json());
-    console.log(grid.json());
+
+
+    // console.log('empty?', grid.select('1, 3').empty());
+    // console.log('empty?', grid.select('E1:E5').empty());
+
+    // console.log(grid.select('1').fill('hi').all().toString());
+
+    // console.log(grid.select('2, 3').json());
+    // console.log(grid.json());
 
   </script>
 </body>
