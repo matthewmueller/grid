@@ -6,6 +6,7 @@
   "keywords": [],
   "dependencies": {
     "matthewmueller/mini-tokenizer": "0.1.2",
+    "juliangruber/intersect": "0.1.0",
     "jkroso/unique": "0.0.1"
   },
   "development": {},
