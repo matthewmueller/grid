@@ -14,6 +14,7 @@
   "main": "index.js",
   "scripts": [
     "index.js",
+    "lib/cell.js",
     "lib/grid.js",
     "lib/type.js",
     "lib/utils.js",

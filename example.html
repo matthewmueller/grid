@@ -17,15 +17,17 @@
       .select('5').insert([1, 2, 3, 4, 5])
 
     // grid
-    // console.log(grid.toString());
-    // grid.select('2:3').find('3').shift(2);
-    // console.log(grid.toString());
-
-
-    var selection = grid.select('1:3');
-    var found = selection.find('1').fill(5);
-
     console.log(grid.toString());
+    grid.select('2:3').find('3').shift(2);
+    console.log(grid.toString());
+
+    grid.select('1').get(0).value(5)
+
+
+    // var selection = grid.select('1:3');
+    // var found = selection.find('1').fill(5);
+
+    // console.log(grid.toString());
 
     // console.log('empty?', grid.select('1, 3').empty());
     // console.log('empty?', grid.select('E1:E5').empty());
